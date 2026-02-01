@@ -47,7 +47,7 @@ cd todo_app_php
 ### 2. Importer la base de données :
 
 - Ouvrez votre outil de gestion (phpMyAdmin, TablePlus, ou terminal).
-- Importez le fichier `database/database.sql` situé dans le projet.
+- Importez le fichier `database/schema.sql` situé dans le projet.
 
 ### 3. Configurer la connexion :
 
@@ -64,4 +64,3 @@ php -S localhost:8000 -t .
 ```
 
 Puis ouvrez votre navigateur sur http://localhost:8000.
-
